@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #search-input {
+    width: 60%;
+    padding: 10px;
+  }
+  
+  #search-button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .video-section {
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  #video-player {
+    flex: 3;
+    margin-right: 20px;
+  }
+  
+  #video-list {
+    flex: 1;
+  }
+  
+  .wiki-section {
+    margin-top: 40px;
+  }
+  
+  #wiki-results {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .video-section {
+      flex-direction: column;
+    }
+  
+    #video-player, #video-list {
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+  
+    #search-input {
+      width: 100%;
+    }
+  }
+  

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WikiTube</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <h1>WikiTube</h1>
+      <input type="text" id="search-input" placeholder="Search for videos and Wikipedia articles...">
+      <button id="search-button">Search</button>
+    </header>
+
+    <section class="video-section">
+      <div id="video-player">
+        <!-- Embedded YouTube player will go here -->
+      </div>
+      <div id="video-list">
+        <!-- List of videos from YouTube API -->
+      </div>
+    </section>
+
+    <section class="wiki-section">
+      <h2>Wikipedia Results</h2>
+      <div id="wiki-results">
+        <!-- Wikipedia API results will go here -->
+      </div>
+    </section>
+  </div>
+
+  <script src="js/wikitube.js"></script>
+</body>
+</html>
